@@ -1,0 +1,111 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.container-fluid{
+    display: grid;
+    grid-template-rows: 4%[top] 25% [banner] 24%[about] 17%[he]30% [footer] ;
+    margin: 0;
+    padding:0 !important;
+    height: 100rem;
+    width: 100%;
+    font-family:'Maven Pro', sans-serif;
+    overflow-y: hidden; 
+}
+.navbar{
+    background-color: #0505fc;
+}
+.navbar > a{
+    color: #ffff;
+}
+.nav-item >a{
+    color: #ffff;
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 10px;
+    grid-row: 2/2;
+}.moto{
+    padding-left: 5%;
+}
+.btn{
+    margin-top: 5%;
+    background-color: #0505fc!important;
+    width: 6rem !important;
+    height: 2.5rem !important;
+}
+.logo{
+    padding-top: 5%;
+    padding-left: 20%;
+}
+.header>img{
+    height: 100%;
+    grid-column: 2/2;
+}
+.tox{
+    font-family: 'Noto Sans', sans-serif !important;
+    font-size: 5rem !important;
+}
+.about{
+    grid-row: 3/3;
+}
+.card-deck{
+    margin-top: 10%;
+    height: 40%;
+    width: 100%;
+}
+.card{
+    height: 100% !important;
+    border-width: 0 !important;
+    text-align: center  ;
+   
+}
+
+.card>svg{
+    height: 2rem;
+   
+}
+.profile{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-row: 4/4;
+    padding-left: 10%;
+    
+}
+.profile > img{
+    grid-column: 1/1;
+    height: 80%;
+    border-width: 0 !important;
+    padding-top: 5%;
+    background-color: #;
+}
+ .background{
+     grid-column: 2/2;
+     width: 60%;
+     padding-left: 3%;
+ }
+.footer{
+    display: grid;
+    grid-template-rows: 40% 60%;
+    grid-row: 5/5;
+    background-repeat: repeat-x;
+}
+.top{
+    grid-row: 1/1;
+    background-image: url(bottom.png) ;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.bottom{
+    grid-row: 2/2;
+    background-color: #0505fc;
+    text-align: center;
+    color: #ffff;
+}
+
